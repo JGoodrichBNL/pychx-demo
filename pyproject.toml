@@ -1,4 +1,12 @@
 [project]
 name = "pyCHX-demo"
+version = "1.0.0"
 requires-python = ">=3.10"
 dependencies = ["numpy"]
+
+[tool.pixi.project]
+channels = ["conda-forge"]
+platforms = ["linux-64"]
+
+[tool.pixi.pypi-dependencies]
+pyCHX-demo = { path = ".", editable = true }
