@@ -1,0 +1,4 @@
+[project]
+name = "pyCHX-demo"
+requires-python = ">=3.10"
+dependencies = ["numpy"]
